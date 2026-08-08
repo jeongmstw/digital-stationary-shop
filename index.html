@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticker & Planner Shop</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Pretendard', sans-serif; }
+    </style>
+</head>
+<body class="bg-pink-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-pink-500">✨ 몽글스튜디오</h1>
+            <nav class="space-x-6 text-sm font-medium">
+                <a href="#shop" class="hover:text-pink-500 transition">Shop</a>
+                <a href="#about" class="hover:text-pink-500 transition">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="max-w-6xl mx-auto px-6 py-16 text-center">
+        <span class="bg-pink-200 text-pink-700 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Digital Stationery Shop</span>
+        <h2 class="text-3xl md:text-5xl font-bold mt-4 mb-6 leading-tight">아이패드를 더 예쁘게,<br>나만의 감성 디지털 문구 🛒</h2>
+        <p class="text-gray-600 max-w-xl mx-auto mb-8">굿노트 속지부터 감성 스티커까지, 당신의 일상을 채워줄 디지털 굿즈를 만나보세요.</p>
+        <a href="#shop" class="bg-pink-500 text-white font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-pink-600 transition">상품 구경하기</a>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="max-w-6xl mx-auto px-6 py-12">
+        <h3 class="text-2xl font-bold mb-8 text-center">📦 Popular Items</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- 상품 카드 1 -->
+            <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition">
+                <div class="bg-pink-100 h-48 rounded-xl mb-4 flex items-center justify-center text-pink-400 font-semibold">Planner Thumbnail</div>
+                <h4 class="font-bold text-lg mb-1">2026 하반기 만년 다이어리</h4>
+                <p class="text-gray-500 text-sm mb-4">하이퍼링크가 포함된 깔끔한 PDF 속지</p>
+                <button class="w-full bg-pink-100 text-pink-600 font-semibold py-2 rounded-xl hover:bg-pink-500 hover:text-white transition">무료 다운로드</button>
+            </div>
+            <!-- 상품 카드 2 -->
+            <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition">
+                <div class="bg-purple-100 h-48 rounded-xl mb-4 flex items-center justify-center text-purple-400 font-semibold">Sticker Thumbnail</div>
+                <h4 class="font-bold text-lg mb-1">파스텔 감성 힐링 스티커 팩</h4>
+                <p class="text-gray-500 text-sm mb-4">PNG 개별 잘라쓰기 파일 제공</p>
+                <button class="w-full bg-pink-100 text-pink-600 font-semibold py-2 rounded-xl hover:bg-pink-500 hover:text-white transition">무료 다운로드</button>
+            </div>
+            <!-- 상품 카드 3 -->
+            <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition">
+                <div class="bg-yellow-100 h-48 rounded-xl mb-4 flex items-center justify-center text-yellow-500 font-semibold">Note Thumbnail</div>
+                <h4 class="font-bold text-lg mb-1">아이패드 모눈 단어장</h4>
+                <p class="text-gray-500 text-sm mb-4">공부 효율을 높여주는 미니 플래너</p>
+                <button class="w-full bg-pink-100 text-pink-600 font-semibold py-2 rounded-xl hover:bg-pink-500 hover:text-white transition">무료 다운로드</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-100 mt-20 py-8 text-center text-gray-400 text-sm">
+        <p>&copy; 2026 Mongle Studio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
